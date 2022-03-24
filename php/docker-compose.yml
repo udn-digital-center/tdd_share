@@ -1,0 +1,36 @@
+version: "3.8"
+
+services:
+    
+    php8:
+        build:
+            context: ./php
+            dockerfile: Dockerfile
+        ports:
+            - 8080:8080  
+        # command: bash -c "composer install && cd bin && sh cake server -H 0.0.0.0 -p 8080"   
+        command: bash -c "composer install && bin/cake server -H 0.0.0.0 -p 8080"   
+        volumes:
+        - ./php/app:/var/www/html
+        # deploy:
+        #     resources:
+        #       limits:
+        #         cpus: '0.50'
+        #         memory: 512M 
+    mysql:
+        image: mysql:5.6
+        ports:
+        - 3306:3306
+        # volumes: 
+        # - ./data:/var/lib/mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: 123456
+        volumes: 
+        - ./sqls:/docker-entrypoint-initdb.d
+        # - ./data:/var/lib/mysql
+        # deploy:
+        #     resources:
+        #       limits:
+        #         cpus: '0.50'
+        #         memory: 500M
+

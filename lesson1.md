@@ -47,6 +47,7 @@ https://www.reddit.com/r/ProgrammerHumor/comments/htf08v/when_your_unit_test_pas
 - python  unittest [link](https://docs.python.org/zh-tw/3/library/unittest.html#module-unittest)
 
 > 找一遍 各家單元測試框架的相關關鍵詞 <br>斷點assert  <br>期望值expected<br>  實際值actual<br> 預設狀態fixture(放資料 ，GLOBAL，放預設值....之類的地方) 
+
 <br>
 
 ## 具體操作(PHP為範例) ##
@@ -54,9 +55,10 @@ https://www.reddit.com/r/ProgrammerHumor/comments/htf08v/when_your_unit_test_pas
 
 - 先用一般直接寫production code的方式開發
 
-- 再用TDD先寫測試在寫production code的方式開發
+- 再用TDD先寫測試在寫production code的方式開發<br>
  ![單元測試](https://ithelp.ithome.com.tw/upload/images/20171219/20107209TCtY1OhGTn.png)
 
+<br>
 
  ## 說明一下六都專案和六都問券中具體案例 ##
 
