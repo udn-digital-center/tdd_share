@@ -52,7 +52,7 @@ https://www.reddit.com/r/ProgrammerHumor/comments/htf08v/when_your_unit_test_pas
 <br>
 
 ## 具體操作(PHP and JS 為範例) ##
-PHP 需求:寫一個留言板，可以顯示所有留言，可以增加留言，留言可以案讚
+PHP 需求:寫一個留言板，可以顯示所有留言，可以增加留言，留言可以案讚<br>
 JS 需求:寫一個投票功能，可以顯示投票列表，投票+1
 
 - 先用一般直接寫production code的方式開發
