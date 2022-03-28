@@ -1,6 +1,6 @@
 # TDD-測試先行開發方式 #
 
-## 你將會學到 ##
+## 你將會得到 ##
 -  簡單的單元測試 unit test
 -  了解單元測試中的(斷點 期望值 實際值 預設狀態)等概念
 -  用PHP and JS實作一個範例
@@ -38,7 +38,7 @@ https://www.reddit.com/r/ProgrammerHumor/comments/htf08v/when_your_unit_test_pas
 
 ## 可以用在 ##
 - 可以在一個專案的小元件上用，逐漸擴大成習慣
-- 在大專案用， 
+- 在大專案用，應該效果更明顯 😁😁😁😁😁😁
 <br>
 
 ## 準備軟體 ##
