@@ -2,7 +2,7 @@
 // 需求: 列出投票清單  可點選後該項+1
 
 let votelist = [
-    {'city':'台北','vote' :0},
+    {'city':'台北','vote':0},
     {'city':'台中','vote':0},
     {'city':'台南','vote':0},
     {'city':'高雄','vote':0}
@@ -14,8 +14,8 @@ function showVoteList(){
     });
 }
 
-function addVote(id){
-
+function addVote(id)
+{
     votelist[id]['vote'] = votelist[id]['vote'] + 1;
     mailto(id);
 }
@@ -26,11 +26,11 @@ function mailto(id){
 }
 
 
-// showVoteList();
-// console.log('---投票後---');
-// addVote(2);
-// addVote(1);
-// addVote(1);
-// showVoteList();
+showVoteList();
+console.log('---投票後---');
+addVote(2);
+addVote(1);
+addVote(1);
+showVoteList();
 
-module.exports = mailto;
+// module.exports = {mailto,addVote,showVoteList};
