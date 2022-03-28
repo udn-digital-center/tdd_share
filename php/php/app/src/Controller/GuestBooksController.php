@@ -14,6 +14,7 @@ class GuestBooksController extends AppController
                     ];
     public function index():void
     {
+        $this -> autoRender = false;
         debug('測試先行留言板開發');
         $this->showData($this->data);
         debug('---增加留言----');
