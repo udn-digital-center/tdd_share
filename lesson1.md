@@ -3,7 +3,7 @@
 ## 你將會學到 ##
 -  簡單的單元測試 unit test
 -  了解單元測試中的(斷點 期望值 實際值 預設狀態)等概念
--  用PHP實作一個範例
+-  用PHP and JS實作一個範例
 
 <br>
 
@@ -14,7 +14,7 @@
 - TDD能讓你，敢於重構，優化代碼，進而可以寫更大的專案
 > 重購的定義 <font color=#FFFF00>在不改變軟體外部行為的前提下，改變其內部結構，使其更容易理解且易於修改</font>
 - TDD事實上能讓你更快交付(足夠可用)
-- TDD本身也是一種文件，我覺會比文件檔和註解更有意義
+- TDD本身也是一種文件，我用起來覺會比文件檔和註解更有意義
 - TDD比較是一種思考方法(反直覺)，執行手法各種程式語言都差不多
 
 <br>
@@ -43,15 +43,17 @@ https://www.reddit.com/r/ProgrammerHumor/comments/htf08v/when_your_unit_test_pas
 
 ## 準備軟體 ##
 - PHP phpunit [link](https://phpunit.readthedocs.io/zh_CN/latest/index.html) 
-- js  Jtest [link](https://jestjs.io/)  mocha [link](https://mochajs.org/)
+- js  Jest [link](https://jestjs.io/)  mocha [link](https://mochajs.org/)
 - python  unittest [link](https://docs.python.org/zh-tw/3/library/unittest.html#module-unittest)
+- JAVA  JUnit
 
 > 找一遍 各家單元測試框架的相關關鍵詞 <br>斷點assert  <br>期望值expected<br>  實際值actual<br> 預設狀態fixture(放資料 ，GLOBAL，放預設值....之類的地方) 
 
 <br>
 
-## 具體操作(PHP為範例) ##
-需求:寫一個留言板，可以顯示所有留言，可以增加留言，留言可以案讚
+## 具體操作(PHP and JS 為範例) ##
+PHP 需求:寫一個留言板，可以顯示所有留言，可以增加留言，留言可以案讚
+JS 需求:寫一個投票功能，可以顯示投票列表，投票+1
 
 - 先用一般直接寫production code的方式開發
 
